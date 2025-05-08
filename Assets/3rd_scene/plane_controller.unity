@@ -1,0 +1,6763 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 4
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &157207112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157207114}
+  - component: {fileID: 157207113}
+  - component: {fileID: 157207115}
+  m_Layer: 0
+  m_Name: Sun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &157207113
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157207112}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 130000
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 2
+  m_AreaSize: {x: 0.5, y: 0.5}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6500
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 2.5
+--- !u!4 &157207114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157207112}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!114 &157207115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157207112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Intensity: 130000
+  m_EnableSpotReflector: 0
+  m_LuxAtDistance: 1
+  m_InnerSpotPercent: 0
+  m_SpotIESCutoffPercent: 100
+  m_LightDimmer: 1
+  m_VolumetricDimmer: 1
+  m_LightUnit: 2
+  m_FadeDistance: 10000
+  m_VolumetricFadeDistance: 10000
+  m_AffectDiffuse: 1
+  m_AffectSpecular: 1
+  m_NonLightmappedOnly: 0
+  m_ShapeWidth: 0.5
+  m_ShapeHeight: 0.5
+  m_AspectRatio: 1
+  m_ShapeRadius: 0.025
+  m_SoftnessScale: 1
+  m_UseCustomSpotLightShadowCone: 0
+  m_CustomSpotLightShadowCone: 30
+  m_MaxSmoothness: 0.99
+  m_ApplyRangeAttenuation: 1
+  m_DisplayAreaLightEmissiveMesh: 0
+  m_AreaLightCookie: {fileID: 0}
+  m_IESPoint: {fileID: 0}
+  m_IESSpot: {fileID: 0}
+  m_IncludeForRayTracing: 1
+  m_AreaLightShadowCone: 120
+  m_UseScreenSpaceShadows: 0
+  m_InteractsWithSky: 1
+  m_AngularDiameter: 2.5
+  m_FlareSize: 2
+  m_FlareTint: {r: 1, g: 1, b: 1, a: 1}
+  m_FlareFalloff: 4
+  m_SurfaceTexture: {fileID: 0}
+  m_SurfaceTint: {r: 1, g: 1, b: 1, a: 1}
+  m_Distance: 1.5e+11
+  m_UseRayTracedShadows: 0
+  m_NumRayTracingSamples: 4
+  m_FilterTracedShadow: 1
+  m_FilterSizeTraced: 16
+  m_SunLightConeAngle: 0.5
+  m_LightShadowRadius: 0.5
+  m_SemiTransparentShadow: 0
+  m_ColorShadow: 1
+  m_DistanceBasedFiltering: 0
+  m_EvsmExponent: 15
+  m_EvsmLightLeakBias: 0
+  m_EvsmVarianceBias: 0.00001
+  m_EvsmBlurPasses: 0
+  m_LightlayersMask: 1
+  m_LinkShadowLayers: 1
+  m_ShadowNearPlane: 0.1
+  m_BlockerSampleCount: 24
+  m_FilterSampleCount: 16
+  m_MinFilterSize: 0.1
+  m_KernelSize: 5
+  m_LightAngle: 1
+  m_MaxDepthBias: 0.001
+  m_ShadowResolution:
+    m_Override: 512
+    m_UseOverride: 1
+    m_Level: 0
+  m_ShadowDimmer: 1
+  m_VolumetricShadowDimmer: 1
+  m_ShadowFadeDistance: 10000
+  m_UseContactShadow:
+    m_Override: 0
+    m_UseOverride: 1
+    m_Level: 0
+  m_RayTracedContactShadow: 0
+  m_ShadowTint: {r: 0, g: 0, b: 0, a: 1}
+  m_PenumbraTint: 0
+  m_NormalBias: 0.75
+  m_SlopeBias: 0.5
+  m_ShadowUpdateMode: 0
+  m_AlwaysDrawDynamicShadows: 0
+  m_UpdateShadowOnLightMovement: 0
+  m_CachedShadowTranslationThreshold: 0.01
+  m_CachedShadowAngularThreshold: 0.5
+  m_BarnDoorAngle: 90
+  m_BarnDoorLength: 0.05
+  m_preserveCachedShadow: 0
+  m_OnDemandShadowRenderOnPlacement: 1
+  m_ShadowCascadeRatios:
+  - 0.05
+  - 0.2
+  - 0.3
+  m_ShadowCascadeBorders:
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  m_ShadowAlgorithm: 0
+  m_ShadowVariant: 0
+  m_ShadowPrecision: 0
+  useOldInspector: 0
+  useVolumetric: 1
+  featuresFoldout: 1
+  m_AreaLightEmissiveMeshShadowCastingMode: 0
+  m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
+  m_AreaLightEmissiveMeshLayer: -1
+  m_Version: 11
+  m_ObsoleteShadowResolutionTier: 1
+  m_ObsoleteUseShadowQualitySettings: 0
+  m_ObsoleteCustomShadowResolution: 512
+  m_ObsoleteContactShadows: 0
+  m_PointlightHDType: 0
+  m_SpotLightShape: 0
+  m_AreaLightShape: 0
+--- !u!1 &432432459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432432461}
+  - component: {fileID: 432432460}
+  m_Layer: 0
+  m_Name: Sky and Fog Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &432432460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432432459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: bd922665712d9624fabaf5027e55b98d, type: 2}
+--- !u!4 &432432461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432432459}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &446037633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446037634}
+  - component: {fileID: 446037637}
+  - component: {fileID: 446037636}
+  - component: {fileID: 446037635}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446037634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446037633}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.047507092, y: 0.4909242, z: -0.032399405, w: 0.8693025}
+  m_LocalPosition: {x: -36.834106, y: 28.45177, z: -37.171387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1825168249}
+  m_LocalEulerAnglesHint: {x: 17.823, y: -8.669, z: 3.763}
+--- !u!114 &446037635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446037633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearColorMode: 0
+  backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
+  clearDepth: 1
+  volumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  volumeAnchorOverride: {fileID: 0}
+  antialiasing: 0
+  SMAAQuality: 2
+  dithering: 0
+  stopNaNs: 0
+  taaSharpenStrength: 0.5
+  TAAQuality: 1
+  taaHistorySharpening: 0.35
+  taaAntiFlicker: 0.5
+  taaMotionVectorRejection: 0
+  taaAntiHistoryRinging: 0
+  taaBaseBlendFactor: 0.875
+  taaJitterScale: 1
+  physicalParameters:
+    m_Iso: 200
+    m_ShutterSpeed: 0.005
+    m_Aperture: 16
+    m_FocusDistance: 10
+    m_BladeCount: 5
+    m_Curvature: {x: 2, y: 11}
+    m_BarrelClipping: 0.25
+    m_Anamorphism: 0
+  flipYMode: 0
+  xrRendering: 1
+  fullscreenPassthrough: 0
+  allowDynamicResolution: 0
+  customRenderingSettings: 0
+  invertFaceCulling: 0
+  probeLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  hasPersistentHistory: 0
+  screenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  screenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  allowDeepLearningSuperSampling: 1
+  deepLearningSuperSamplingUseCustomQualitySettings: 0
+  deepLearningSuperSamplingQuality: 0
+  deepLearningSuperSamplingUseCustomAttributes: 0
+  deepLearningSuperSamplingUseOptimalSettings: 1
+  deepLearningSuperSamplingSharpening: 0
+  fsrOverrideSharpness: 0
+  fsrSharpness: 0.92
+  exposureTarget: {fileID: 0}
+  materialMipBias: 0
+  m_RenderingPathCustomFrameSettings:
+    bitDatas:
+      data1: 140666587840333
+      data2: 13763000512783810584
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    msaaMode: 1
+    materialQuality: 0
+  renderingPathCustomFrameSettingsOverrideMask:
+    mask:
+      data1: 0
+      data2: 0
+  defaultFrameSettings: 0
+  m_Version: 9
+  m_ObsoleteRenderingPath: 0
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
+--- !u!81 &446037636
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446037633}
+  m_Enabled: 1
+--- !u!20 &446037637
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446037633}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!1 &449973900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449973903}
+  - component: {fileID: 449973902}
+  - component: {fileID: 449973901}
+  - component: {fileID: 449973904}
+  - component: {fileID: 449973905}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!154 &449973901
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449973900}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: 1e89126b4f7b51e4e9a5211d2257fc40, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &449973902
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449973900}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 1e89126b4f7b51e4e9a5211d2257fc40, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 257
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
+--- !u!4 &449973903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449973900}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -681.7103, y: -27.283478, z: -5036.894}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1370672029}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &449973904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449973900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af2d410bf489d842a543a60d605af5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrains:
+  - {fileID: 449973902}
+  splatmapResolution: 256
+  colorMapResolution: 256
+  layerSettings:
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: b649106d044cd744cacbcd3582ecebb6, type: 2}
+    modifierStack: []
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: a026f67c6452bb7488422ec75c67c660, type: 2}
+    modifierStack: []
+  autoRepaint: 0
+  terrainListeners: []
+  bounds:
+    m_Center: {x: 5000, y: 300, z: 5000}
+    m_Extent: {x: 5000, y: 300, z: 5000}
+  filterShader: {fileID: 4800000, guid: 0f44df78e3d64d9cb2616cac3d84cb77, type: 3}
+--- !u!114 &449973905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449973900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfacevecs: []
+  tdataFloat: []
+  terrainData: {fileID: 15600000, guid: 1e89126b4f7b51e4e9a5211d2257fc40, type: 2}
+  xStart: 34
+  zStart: 254
+  roadSurface: {fileID: 0}
+  surfaceMesh: {fileID: 0}
+  surfaceCollider: {fileID: 0}
+  terrainDataStored:
+  - terrainWidth: 3
+    terrainHeight: 1
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.9828103
+    hitpos: {x: 683.59375, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 1
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 683.59375, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 1
+    terrainHeight: 2
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 703.125, y: 0, z: 4980.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 2
+    terrainHeight: 2
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 703.125, y: 0, z: 5000}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 2
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 703.125, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 2
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 703.125, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 2
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.73961395
+    hitpos: {x: 703.125, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 1
+    terrainHeight: 3
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.34273043
+    hitpos: {x: 722.65625, y: 0, z: 4980.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 2
+    terrainHeight: 3
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 722.65625, y: 0, z: 5000}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 3
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 722.65625, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 3
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 722.65625, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 3
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 722.65625, y: 0, z: 5058.5933}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 2
+    terrainHeight: 4
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 742.1875, y: 0, z: 5000}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 4
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 742.1875, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 4
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 742.1875, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 4
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 742.1875, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 2
+    terrainHeight: 5
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 761.71875, y: 0, z: 5000}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 5
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 761.71875, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 5
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 761.71875, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 5
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 761.71875, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 2
+    terrainHeight: 6
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 781.24994, y: 0, z: 5000}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 6
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 781.25, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 6
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 781.25, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 6
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 781.25006, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 2
+    terrainHeight: 7
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 800.78125, y: 0, z: 5000}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 7
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 800.78125, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 7
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 800.7813, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 7
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 800.78125, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 7
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.00038161752
+    hitpos: {x: 800.78125, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 2
+    terrainHeight: 8
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 820.31256, y: 0, z: 5000}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 8
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 820.3125, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 8
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 820.3125, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 8
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 820.3125, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 8
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 820.3125, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 9
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 839.8437, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 9
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 839.84375, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 9
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 839.84375, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 9
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 839.84375, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 10
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 859.375, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 10
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 859.375, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 10
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 859.375, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 10
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 859.375, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 11
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 878.90625, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 11
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 878.90625, y: 0, z: 5039.062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 11
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 878.90625, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 11
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 878.90625, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 3
+    terrainHeight: 12
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 898.4375, y: 0, z: 5019.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 12
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 898.43744, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 12
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 898.4375, y: 0, z: 5058.5933}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 12
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 898.4375, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 12
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 898.4375, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 13
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 917.9687, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 13
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 917.96875, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 13
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 917.96875, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 13
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 917.96875, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 14
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 937.5, y: 0, z: 5039.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 14
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 937.5, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 14
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 937.50006, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 14
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 937.5, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 14
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.014840283
+    hitpos: {x: 937.49994, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 4
+    terrainHeight: 15
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 957.03125, y: 0, z: 5039.062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 15
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 957.03125, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 15
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 957.03125, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 15
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 957.03125, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 15
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 957.03125, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 16
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 976.5625, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 16
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 976.5625, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 16
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 976.56244, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 16
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 976.5625, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 9
+    terrainHeight: 16
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 976.5625, y: 0, z: 5136.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 5
+    terrainHeight: 17
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 996.0937, y: 0, z: 5058.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 17
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 996.09375, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 17
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 996.0937, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 17
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 996.09375, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 9
+    terrainHeight: 17
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 996.09375, y: 0, z: 5136.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 6
+    terrainHeight: 18
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1015.62506, y: 0, z: 5078.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 18
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1015.625, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 18
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1015.625, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 9
+    terrainHeight: 18
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1015.625, y: 0, z: 5136.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 10
+    terrainHeight: 18
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1015.625, y: 0, z: 5156.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 19
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1035.1561, y: 0, z: 5097.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 19
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1035.1562, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 9
+    terrainHeight: 19
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1035.1562, y: 0, z: 5136.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 10
+    terrainHeight: 19
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1035.1562, y: 0, z: 5156.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 19
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1035.1562, y: 0, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 7
+    terrainHeight: 20
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.9343482
+    hitpos: {x: 1054.6875, y: 0, z: 5097.6567}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 20
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1054.6875, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 9
+    terrainHeight: 20
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1054.6875, y: 0, z: 5136.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 10
+    terrainHeight: 20
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1054.6875, y: 0, z: 5156.2495}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 20
+    originalHeight: 0
+    flattenedHeight: -0.00003333603
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1054.6875, y: -0.020001618, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 20
+    originalHeight: 0
+    flattenedHeight: -0.000033337965
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1054.6875, y: -0.020002779, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 8
+    terrainHeight: 21
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1074.2189, y: 0, z: 5117.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 9
+    terrainHeight: 21
+    originalHeight: 0
+    flattenedHeight: 0
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1074.2188, y: 0, z: 5136.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 10
+    terrainHeight: 21
+    originalHeight: 0
+    flattenedHeight: -0.000033332017
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1074.2188, y: -0.01999921, z: 5156.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 21
+    originalHeight: 0
+    flattenedHeight: -0.00003333396
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1074.2188, y: -0.020000376, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 21
+    originalHeight: 0
+    flattenedHeight: -0.000033335808
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1074.2188, y: -0.020001484, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 21
+    originalHeight: 0
+    flattenedHeight: -0.000033314365
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1074.2188, y: -0.019988619, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 21
+    originalHeight: 0
+    flattenedHeight: -0.000000004949124
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.0016283236
+    hitpos: {x: 1074.2188, y: -0.0018236391, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 9
+    terrainHeight: 22
+    originalHeight: 0
+    flattenedHeight: -0.000033328004
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1093.75, y: -0.019996801, z: 5136.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 10
+    terrainHeight: 22
+    originalHeight: 0
+    flattenedHeight: -0.00003332995
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1093.75, y: -0.01999797, z: 5156.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 22
+    originalHeight: 0
+    flattenedHeight: -0.00003333181
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1093.75, y: -0.019999085, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 22
+    originalHeight: 0
+    flattenedHeight: -0.000033332166
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1093.75, y: -0.0199993, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 22
+    originalHeight: 0
+    flattenedHeight: -0.000033320954
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1093.75, y: -0.019992571, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 22
+    originalHeight: 0
+    flattenedHeight: -0.000033307082
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1093.75, y: -0.019984249, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 22
+    originalHeight: 0
+    flattenedHeight: -0.000033281067
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1093.75, y: -0.01996864, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 10
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -0.00003332781
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1113.2812, y: -0.019996688, z: 5156.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -0.00003334998
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1113.2812, y: -0.020009989, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -0.00003334223
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1113.2812, y: -0.020005338, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -0.000033335593
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1113.2812, y: -0.020001356, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -0.000033320262
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1113.2812, y: -0.019992158, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -0.00003329655
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1113.2812, y: -0.01997793, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -0.0000332647
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1113.2812, y: -0.01995882, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 23
+    originalHeight: 0
+    flattenedHeight: -1.2663039e-24
+    outerHeightDifference: 0
+    critical: 0
+    perc: 5.6372705e-16
+    hitpos: {x: 1113.2812, y: -0.0000013477841, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -2.304928e-11
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.000022599263
+    hitpos: {x: 1132.8125, y: -0.00061194773, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -0.000033364133
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1132.8125, y: -0.02001848, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -0.000033359498
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1132.8125, y: -0.0200157, z: 5214.8433}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -0.000033343604
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1132.8125, y: -0.020006161, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -0.00003332662
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1132.8125, y: -0.019995973, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -0.000033301567
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1132.8125, y: -0.019980941, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -0.000033268643
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1132.8125, y: -0.019961186, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 24
+    originalHeight: 0
+    flattenedHeight: -0.000033216867
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1132.8125, y: -0.01993012, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.000033382756
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3438, y: -0.020029653, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.0000333764
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3438, y: -0.02002584, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.000033361932
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3438, y: -0.020017158, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.000033339544
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3436, y: -0.020003727, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.000033309392
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3438, y: -0.019985635, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.000033271594
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3438, y: -0.019962957, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.00003321514
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3438, y: -0.019929083, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 25
+    originalHeight: 0
+    flattenedHeight: -0.00003314335
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1152.3438, y: -0.019886011, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.000019446807
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.85444796
+    hitpos: {x: 1171.875, y: -0.013655699, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.000033410503
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1171.875, y: -0.020046301, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.000033390857
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1171.875, y: -0.020034514, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.00003336355
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1171.875, y: -0.02001813, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.000033328193
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1171.875, y: -0.019996915, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.000033281885
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1171.875, y: -0.019969132, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.000033228196
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1171.875, y: -0.019936917, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.00003315495
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1171.875, y: -0.01989297, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 26
+    originalHeight: 0
+    flattenedHeight: -0.0000034761467
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.26822314
+    hitpos: {x: 1171.875, y: -0.007775944, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.000033441425
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.020064855, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.000033421868
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.02005312, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.000033405457
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.020043274, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.000033362187
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.020017311, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.000033311568
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.01998694, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.00003325361
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.019952167, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.00003317906
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.019907437, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 27
+    originalHeight: 0
+    flattenedHeight: -0.00003310264
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1191.4062, y: -0.019861583, z: 5410.1567}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.000033483568
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9374, y: -0.02009014, z: 5312.5005}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.00003345606
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9375, y: -0.020073637, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.000033408534
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9375, y: -0.02004512, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.000033353685
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9375, y: -0.020012211, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.000033289016
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9375, y: -0.019973408, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.000033215725
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9375, y: -0.019929435, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.000033124998
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9375, y: -0.019875, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 28
+    originalHeight: 0
+    flattenedHeight: -0.000033019332
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1210.9375, y: -0.019811599, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.000024478877
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.94956017
+    hitpos: {x: 1230.4688, y: -0.015467505, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.0000335191
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.02011146, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.00003346738
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.020080427, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.000033410764
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.020046458, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.000033342872
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.020005723, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.000033261556
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.019956933, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.00003316575
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.01989945, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.00003306579
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.019839473, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 29
+    originalHeight: 0
+    flattenedHeight: -0.00003294364
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1230.4688, y: -0.019766185, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.00003359467
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.020156803, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.000033538752
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.02012325, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.00003348996
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.020093976, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.000033411732
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.020047039, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.000033326076
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1249.9999, y: -0.019995647, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.000033228822
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.019937294, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.000033124288
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.019874573, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.000032988784
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.01979327, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 30
+    originalHeight: 0
+    flattenedHeight: -0.000032861117
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1250, y: -0.01971667, z: 5527.344}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.00003364368
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.020186208, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.000033575503
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.020145303, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.000033492888
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.020095732, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.000033405406
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.020043243, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.000033303808
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.019982284, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.000033184726
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.019910835, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.000033059878
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.019835927, z: 5527.3438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.000032914515
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1269.5312, y: -0.019748708, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 31
+    originalHeight: 0
+    flattenedHeight: -0.0000000024310933
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.00093717803
+    hitpos: {x: 1269.5312, y: -0.0015564343, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000033673263
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0625, y: -0.020203957, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000033595545
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0625, y: -0.020157326, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000033502518
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0626, y: -0.02010151, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000033394117
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0625, y: -0.02003647, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000033271997
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0625, y: -0.019963197, z: 5527.3433}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000033136035
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0625, y: -0.019881621, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000032993616
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0625, y: -0.019796168, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 32
+    originalHeight: 0
+    flattenedHeight: -0.000032829277
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1289.0625, y: -0.019697566, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.0000000047717625
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.0015643339
+    hitpos: {x: 1308.5938, y: -0.0018302087, z: 5468.7495}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.000033715794
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5938, y: -0.020229476, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.000033616925
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5936, y: -0.020170156, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.00003349747
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5938, y: -0.020098481, z: 5527.3438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.000033370823
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5938, y: -0.020022495, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.000033230845
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5938, y: -0.019938506, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.000033068853
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5938, y: -0.019841311, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.00003290352
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5938, y: -0.019742113, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 33
+    originalHeight: 0
+    flattenedHeight: -0.000032714514
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1308.5936, y: -0.019628707, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.000033837627
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.020302577, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.000033736265
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.02024176, z: 5527.344}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.0000336171
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.02017026, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.000033481236
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.020088742, z: 5566.406}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.00003333489
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.020000935, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.000033171586
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.019902952, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.00003299499
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.019796994, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.000032804688
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1328.125, y: -0.019682813, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 34
+    originalHeight: 0
+    flattenedHeight: -0.000012152896
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.6539709
+    hitpos: {x: 1328.125, y: -0.011149942, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.000033865526
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6561, y: -0.020319317, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.000033755372
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6561, y: -0.020253222, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.000033607168
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6562, y: -0.020164302, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.000033452485
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6562, y: -0.020071492, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.0000332815
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6562, y: -0.0199689, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.000033095403
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6562, y: -0.01985724, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.000032890614
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6562, y: -0.019734368, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 35
+    originalHeight: 0
+    flattenedHeight: -0.000032667518
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1347.6562, y: -0.01960051, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.000033892393
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1875, y: -0.020335436, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.000033746157
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1875, y: -0.020247694, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.00003357673
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1875, y: -0.020146037, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.000033398544
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1875, y: -0.020039126, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.00003320163
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1875, y: -0.019920979, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.000032985416
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1875, y: -0.01979125, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.000032760305
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1875, y: -0.019656183, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 36
+    originalHeight: 0
+    flattenedHeight: -0.00003250774
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1367.1874, y: -0.019504646, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.0000010083239
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.10338725
+    hitpos: {x: 1386.7188, y: -0.0058517307, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.000033884426
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1386.7188, y: -0.020330656, z: 5625.0005}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.000033721935
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1386.7188, y: -0.020233162, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.00003352438
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1386.7188, y: -0.020114627, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.00003331504
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1386.7188, y: -0.019989023, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.00003308988
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1386.7188, y: -0.019853927, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.00003284321
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1386.7188, y: -0.019705927, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 37
+    originalHeight: 0
+    flattenedHeight: -0.000032587886
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1386.7189, y: -0.019552732, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 38
+    originalHeight: 0
+    flattenedHeight: -0.000034056076
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1406.25, y: -0.020433646, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 38
+    originalHeight: 0
+    flattenedHeight: -0.000033858945
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1406.25, y: -0.020315368, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 38
+    originalHeight: 0
+    flattenedHeight: -0.000033656186
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1406.25, y: -0.02019371, z: 5683.594}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 38
+    originalHeight: 0
+    flattenedHeight: -0.000033430595
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1406.25, y: -0.020058356, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 38
+    originalHeight: 0
+    flattenedHeight: -0.000033189343
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1406.25, y: -0.019913606, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 38
+    originalHeight: 0
+    flattenedHeight: -0.000032932403
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1406.25, y: -0.019759443, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 38
+    originalHeight: 0
+    flattenedHeight: -0.000032642205
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1406.25, y: -0.019585323, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 39
+    originalHeight: 0
+    flattenedHeight: -0.00003400859
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1425.7812, y: -0.020405155, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 39
+    originalHeight: 0
+    flattenedHeight: -0.000033782137
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1425.7812, y: -0.020269282, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 39
+    originalHeight: 0
+    flattenedHeight: -0.00003354576
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1425.7812, y: -0.020127455, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 39
+    originalHeight: 0
+    flattenedHeight: -0.000033285833
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1425.7812, y: -0.0199715, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 39
+    originalHeight: 0
+    flattenedHeight: -0.00003300115
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1425.7812, y: -0.019800691, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 39
+    originalHeight: 0
+    flattenedHeight: -0.000032700704
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1425.7812, y: -0.019620422, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 39
+    originalHeight: 0
+    flattenedHeight: -0.00003238271
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1425.7812, y: -0.019429626, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 40
+    originalHeight: 0
+    flattenedHeight: -0.000034145756
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1445.3125, y: -0.020487454, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 40
+    originalHeight: 0
+    flattenedHeight: -0.000033922046
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1445.3125, y: -0.020353228, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 40
+    originalHeight: 0
+    flattenedHeight: -0.00003365539
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1445.3125, y: -0.020193234, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 40
+    originalHeight: 0
+    flattenedHeight: -0.000033372882
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1445.3126, y: -0.02002373, z: 5761.7183}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 40
+    originalHeight: 0
+    flattenedHeight: -0.000033067336
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1445.3125, y: -0.0198404, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 40
+    originalHeight: 0
+    flattenedHeight: -0.000032743028
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1445.3125, y: -0.019645818, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 40
+    originalHeight: 0
+    flattenedHeight: -0.000032398664
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1445.3125, y: -0.019439198, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 41
+    originalHeight: 0
+    flattenedHeight: -0.0000000036679086
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.0012548752
+    hitpos: {x: 1464.8438, y: -0.0017537562, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 41
+    originalHeight: 0
+    flattenedHeight: -0.000034033208
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1464.8439, y: -0.020419925, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 41
+    originalHeight: 0
+    flattenedHeight: -0.00003375171
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1464.8438, y: -0.020251025, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 41
+    originalHeight: 0
+    flattenedHeight: -0.000033439763
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1464.8438, y: -0.020063858, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 41
+    originalHeight: 0
+    flattenedHeight: -0.000033107506
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1464.8438, y: -0.019864503, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 41
+    originalHeight: 0
+    flattenedHeight: -0.00003275364
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1464.8436, y: -0.019652184, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 41
+    originalHeight: 0
+    flattenedHeight: -0.000032376996
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1464.8438, y: -0.019426197, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 42
+    originalHeight: 0
+    flattenedHeight: -0.00003413635
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1484.375, y: -0.020481808, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 42
+    originalHeight: 0
+    flattenedHeight: -0.000033816235
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1484.375, y: -0.020289741, z: 5781.2495}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 42
+    originalHeight: 0
+    flattenedHeight: -0.000033474007
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1484.375, y: -0.020084403, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 42
+    originalHeight: 0
+    flattenedHeight: -0.00003310819
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1484.375, y: -0.019864913, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 42
+    originalHeight: 0
+    flattenedHeight: -0.000032708314
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1484.375, y: -0.01962499, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 42
+    originalHeight: 0
+    flattenedHeight: -0.00003228573
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1484.375, y: -0.019371439, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 43
+    originalHeight: 0
+    flattenedHeight: -0.00003419436
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1503.9064, y: -0.020516615, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 43
+    originalHeight: 0
+    flattenedHeight: -0.00003385449
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1503.9061, y: -0.020312693, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 43
+    originalHeight: 0
+    flattenedHeight: -0.000033459935
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1503.9062, y: -0.020075962, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 43
+    originalHeight: 0
+    flattenedHeight: -0.000033045213
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1503.9062, y: -0.019827127, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 43
+    originalHeight: 0
+    flattenedHeight: -0.00003260214
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1503.9062, y: -0.019561283, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 44
+    originalHeight: 0
+    flattenedHeight: -0.000034223907
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1523.4375, y: -0.020534344, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 44
+    originalHeight: 0
+    flattenedHeight: -0.000033810124
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1523.4376, y: -0.020286074, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 44
+    originalHeight: 0
+    flattenedHeight: -0.000033364908
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1523.4375, y: -0.020018945, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 44
+    originalHeight: 0
+    flattenedHeight: -0.00003289573
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1523.4375, y: -0.019737437, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 44
+    originalHeight: 0
+    flattenedHeight: -0.00003241006
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1523.4375, y: -0.019446036, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 45
+    originalHeight: 0
+    flattenedHeight: -0.000034134617
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1542.9688, y: -0.02048077, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 45
+    originalHeight: 0
+    flattenedHeight: -0.00003365297
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1542.9688, y: -0.020191781, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 45
+    originalHeight: 0
+    flattenedHeight: -0.000033150714
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1542.9688, y: -0.019890428, z: 5859.3745}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 45
+    originalHeight: 0
+    flattenedHeight: -0.00003262967
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1542.9688, y: -0.019577801, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 46
+    originalHeight: 0
+    flattenedHeight: -0.000034409484
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1562.5, y: -0.020645691, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 46
+    originalHeight: 0
+    flattenedHeight: -0.000033880813
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1562.5, y: -0.020328488, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 46
+    originalHeight: 0
+    flattenedHeight: -0.000033339318
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1562.5, y: -0.02000359, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 46
+    originalHeight: 0
+    flattenedHeight: -0.00003279026
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1562.5, y: -0.019674156, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 48
+    terrainHeight: 46
+    originalHeight: 0
+    flattenedHeight: -0.000032236858
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1562.5001, y: -0.019342115, z: 5898.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 47
+    originalHeight: 0
+    flattenedHeight: -0.00003398861
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1582.0312, y: -0.020393167, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 47
+    originalHeight: 0
+    flattenedHeight: -0.000033417113
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1582.0312, y: -0.020050269, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 47
+    originalHeight: 0
+    flattenedHeight: -0.00003284562
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1582.0312, y: -0.019707372, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 48
+    terrainHeight: 47
+    originalHeight: 0
+    flattenedHeight: -0.00003227412
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1582.0312, y: -0.019364472, z: 5898.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 48
+    originalHeight: 0
+    flattenedHeight: -0.00003444734
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1601.5624, y: -0.020668404, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 48
+    originalHeight: 0
+    flattenedHeight: -0.000033904682
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1601.5625, y: -0.02034281, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 48
+    originalHeight: 0
+    flattenedHeight: -0.00003335179
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1601.5625, y: -0.020011073, z: 5859.3745}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 48
+    originalHeight: 0
+    flattenedHeight: -0.000032792428
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1601.5624, y: -0.019675456, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 48
+    terrainHeight: 48
+    originalHeight: 0
+    flattenedHeight: -0.00003222961
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1601.5626, y: -0.019337766, z: 5898.438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 49
+    originalHeight: 0
+    flattenedHeight: -0.00003419946
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1621.0938, y: -0.020519676, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 49
+    originalHeight: 0
+    flattenedHeight: -0.000033694767
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1621.0938, y: -0.02021686, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 49
+    originalHeight: 0
+    flattenedHeight: -0.000033174005
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1621.0936, y: -0.019904403, z: 5859.3745}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 49
+    originalHeight: 0
+    flattenedHeight: -0.000032640724
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1621.0938, y: -0.019584434, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 50
+    originalHeight: 0
+    flattenedHeight: -0.00003434756
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1640.625, y: -0.020608535, z: 5800.781}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 50
+    originalHeight: 0
+    flattenedHeight: -0.000033890126
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1640.625, y: -0.020334076, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 50
+    originalHeight: 0
+    flattenedHeight: -0.000033414908
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1640.625, y: -0.020048944, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 50
+    originalHeight: 0
+    flattenedHeight: -0.000032923235
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1640.625, y: -0.01975394, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 50
+    originalHeight: 0
+    flattenedHeight: -0.000032417058
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1640.625, y: -0.019450234, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 51
+    originalHeight: 0
+    flattenedHeight: -0.000034402015
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1660.1562, y: -0.02064121, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 51
+    originalHeight: 0
+    flattenedHeight: -0.000033980847
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1660.1562, y: -0.020388508, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 51
+    originalHeight: 0
+    flattenedHeight: -0.00003354435
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1660.1562, y: -0.020126611, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 51
+    originalHeight: 0
+    flattenedHeight: -0.00003309215
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1660.1562, y: -0.01985529, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 51
+    originalHeight: 0
+    flattenedHeight: -0.000032624375
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1660.1564, y: -0.019574625, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 47
+    terrainHeight: 51
+    originalHeight: 0
+    flattenedHeight: -0.00000020674943
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.03168383
+    hitpos: {x: 1660.1562, y: -0.003915236, z: 5878.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 52
+    originalHeight: 0
+    flattenedHeight: -0.00003439425
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1679.6874, y: -0.02063655, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 52
+    originalHeight: 0
+    flattenedHeight: -0.000034000506
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1679.6875, y: -0.020400304, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 52
+    originalHeight: 0
+    flattenedHeight: -0.00003359402
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1679.6875, y: -0.020156411, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 52
+    originalHeight: 0
+    flattenedHeight: -0.000033174125
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1679.6875, y: -0.019904476, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 52
+    originalHeight: 0
+    flattenedHeight: -0.000032740212
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1679.6875, y: -0.019644126, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 46
+    terrainHeight: 52
+    originalHeight: 0
+    flattenedHeight: -0.00003229216
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1679.6875, y: -0.019375294, z: 5859.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 53
+    originalHeight: 0
+    flattenedHeight: -0.000034342283
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1699.2189, y: -0.02060537, z: 5742.188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 53
+    originalHeight: 0
+    flattenedHeight: -0.000033969678
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1699.2188, y: -0.020381806, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 53
+    originalHeight: 0
+    flattenedHeight: -0.000033586624
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1699.2188, y: -0.020151975, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 53
+    originalHeight: 0
+    flattenedHeight: -0.000033192304
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1699.2188, y: -0.019915381, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 53
+    originalHeight: 0
+    flattenedHeight: -0.000032785993
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1699.2188, y: -0.019671597, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 45
+    terrainHeight: 53
+    originalHeight: 0
+    flattenedHeight: -0.000032367174
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1699.2188, y: -0.019420303, z: 5839.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 54
+    originalHeight: 0
+    flattenedHeight: -0.000034257366
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1718.7501, y: -0.02055442, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 54
+    originalHeight: 0
+    flattenedHeight: -0.000033901553
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1718.75, y: -0.020340933, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 54
+    originalHeight: 0
+    flattenedHeight: -0.00003353704
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1718.75, y: -0.020122223, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 54
+    originalHeight: 0
+    flattenedHeight: -0.000033163073
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1718.75, y: -0.019897845, z: 5781.2505}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 54
+    originalHeight: 0
+    flattenedHeight: -0.000032778942
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1718.75, y: -0.019667365, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 44
+    terrainHeight: 54
+    originalHeight: 0
+    flattenedHeight: -0.000032384087
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1718.75, y: -0.019430451, z: 5820.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 55
+    originalHeight: 0
+    flattenedHeight: -0.00003215693
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.9995116
+    hitpos: {x: 1738.2811, y: -0.019303586, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 55
+    originalHeight: 0
+    flattenedHeight: -0.000034146615
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1738.2812, y: -0.020487968, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 55
+    originalHeight: 0
+    flattenedHeight: -0.0000338045
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1738.2812, y: -0.020282699, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 55
+    originalHeight: 0
+    flattenedHeight: -0.00003345504
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1738.2812, y: -0.020073023, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 55
+    originalHeight: 0
+    flattenedHeight: -0.000033097545
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1738.2812, y: -0.019858528, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 55
+    originalHeight: 0
+    flattenedHeight: -0.000032731507
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1738.2812, y: -0.019638903, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 43
+    terrainHeight: 55
+    originalHeight: 0
+    flattenedHeight: -0.00003235625
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1738.2812, y: -0.019413749, z: 5800.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 56
+    originalHeight: 0
+    flattenedHeight: -0.00003434012
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1757.8124, y: -0.02060407, z: 5664.062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 56
+    originalHeight: 0
+    flattenedHeight: -0.000034015233
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1757.8125, y: -0.02040914, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 56
+    originalHeight: 0
+    flattenedHeight: -0.0000336845
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1757.8125, y: -0.0202107, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 56
+    originalHeight: 0
+    flattenedHeight: -0.00003334744
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1757.8125, y: -0.020008465, z: 5722.6567}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 56
+    originalHeight: 0
+    flattenedHeight: -0.000033003565
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1757.8125, y: -0.019802138, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 56
+    originalHeight: 0
+    flattenedHeight: -0.000032652362
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1757.8125, y: -0.019591417, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 42
+    terrainHeight: 56
+    originalHeight: 0
+    flattenedHeight: -0.00003229326
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1757.8125, y: -0.019375958, z: 5781.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.000022546854
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.9061195
+    hitpos: {x: 1777.3438, y: -0.014929721, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.000034182918
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1777.3436, y: -0.020509752, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.000033866876
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1777.3438, y: -0.020320125, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.0000335457
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1777.3438, y: -0.02012742, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.000033219094
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1777.3438, y: -0.019931456, z: 5703.1245}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.00003288661
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1777.3438, y: -0.019731967, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 40
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.000032547767
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1777.3439, y: -0.01952866, z: 5742.1875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 41
+    terrainHeight: 57
+    originalHeight: 0
+    flattenedHeight: -0.000032202217
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1777.3436, y: -0.01932133, z: 5761.7188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 58
+    originalHeight: 0
+    flattenedHeight: -0.000034317207
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1796.875, y: -0.020590324, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 58
+    originalHeight: 0
+    flattenedHeight: -0.00003401276
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1796.875, y: -0.020407656, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 58
+    originalHeight: 0
+    flattenedHeight: -0.000033704247
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1796.8751, y: -0.020222548, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 58
+    originalHeight: 0
+    flattenedHeight: -0.00003339129
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1796.875, y: -0.020034775, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 58
+    originalHeight: 0
+    flattenedHeight: -0.00003307356
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1796.875, y: -0.019844137, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 58
+    originalHeight: 0
+    flattenedHeight: -0.00003275072
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1796.875, y: -0.019650431, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 39
+    terrainHeight: 58
+    originalHeight: 0
+    flattenedHeight: -0.0000324224
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1796.875, y: -0.01945344, z: 5722.6562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.000034424862
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4064, y: -0.020654917, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.000034129906
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4062, y: -0.020477943, z: 5585.937}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.00003383153
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4062, y: -0.020298917, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.000033529537
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4062, y: -0.020117722, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.000033223692
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4062, y: -0.019934215, z: 5644.5317}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.000032913635
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4062, y: -0.019748181, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 37
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.0000325991
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4062, y: -0.01955946, z: 5683.5938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 38
+    terrainHeight: 59
+    originalHeight: 0
+    flattenedHeight: -0.00003227979
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1816.4061, y: -0.019367874, z: 5703.125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.0000051253896
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.34573725
+    hitpos: {x: 1835.9376, y: -0.008894714, z: 5527.3438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.00003422403
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1835.9375, y: -0.020534419, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.00003393389
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1835.9375, y: -0.020360336, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.000033640794
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1835.9375, y: -0.020184476, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.000033344513
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1835.9376, y: -0.020006707, z: 5605.469}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.00003304479
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1835.9374, y: -0.019826874, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.000032741445
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1835.9375, y: -0.019644868, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 36
+    terrainHeight: 60
+    originalHeight: 0
+    flattenedHeight: -0.00003243412
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1835.9375, y: -0.019460471, z: 5664.0625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.000034299723
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4688, y: -0.020579834, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.00003401624
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4688, y: -0.020409744, z: 5527.3438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.00003373033
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4688, y: -0.020238198, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.000033441862
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4688, y: -0.020065118, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.00003315057
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4688, y: -0.019890342, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.00003285625
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4688, y: -0.01971375, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 34
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.000032558666
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4689, y: -0.019535199, z: 5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 35
+    terrainHeight: 61
+    originalHeight: 0
+    flattenedHeight: -0.000032257554
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1855.4688, y: -0.019354533, z: 5644.5312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.000034360808
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.020616485, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.000034082583
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.020449549, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.000033802495
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.020281497, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.000033520297
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.020112177, z: 5527.3438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.00003323582
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.019941492, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.000032948865
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.019769318, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.000032659267
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.01959556, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 33
+    terrainHeight: 62
+    originalHeight: 0
+    flattenedHeight: -0.000032366792
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1875, y: -0.019420076, z: 5605.4688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000034410707
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5311, y: -0.020646423, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000034136494
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5312, y: -0.020481896, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000033860826
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5312, y: -0.020316496, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.00003358363
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5312, y: -0.020150177, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000033304615
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5312, y: -0.01998277, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000033023603
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5311, y: -0.019814162, z: 5527.3438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000032740452
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5311, y: -0.019644272, z: 5546.8745}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 31
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000032454995
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1894.5312, y: -0.019472998, z: 5566.4062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 32
+    terrainHeight: 63
+    originalHeight: 0
+    flattenedHeight: -0.000015568596
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.76947874
+    hitpos: {x: 1894.5312, y: -0.012139591, z: 5585.9375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.000034452656
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.020671593, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.00003418114
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.020508684, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.000033908753
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.020345252, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.000033635228
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.020181136, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.000033360422
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.020016253, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.00003308409
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.019850453, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.00003280611
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.019683667, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 29
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.000032526234
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.01951574, z: 5527.3438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 30
+    terrainHeight: 64
+    originalHeight: 0
+    flattenedHeight: -0.000032244323
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1914.0625, y: -0.019346593, z: 5546.875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.000026257152
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.96407443
+    hitpos: {x: 1933.5938, y: -0.016341364, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.00003422002
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5938, y: -0.020532012, z: 5371.094}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.00003394949
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5936, y: -0.020369694, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.000033678392
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5938, y: -0.020207036, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.0000334065
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5938, y: -0.0200439, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.0000331336
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5938, y: -0.01988016, z: 5449.2183}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.00003285952
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5938, y: -0.019715711, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 27
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.000032584085
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5938, y: -0.01955045, z: 5488.2812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 28
+    terrainHeight: 65
+    originalHeight: 0
+    flattenedHeight: -0.000032306976
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1933.5938, y: -0.019384187, z: 5507.8125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.00000004742171
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.009460855
+    hitpos: {x: 1953.125, y: -0.0030074476, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.000034257133
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.1249, y: -0.02055428, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.000033986762
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.125, y: -0.020392057, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.000033716522
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.125, y: -0.020229913, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.000033446166
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.125, y: -0.0200677, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.00003317539
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.125, y: -0.019905234, z: 5410.156}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.000032903958
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.125, y: -0.019742375, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 25
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.000032631633
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.125, y: -0.01957898, z: 5449.2188}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 26
+    terrainHeight: 66
+    originalHeight: 0
+    flattenedHeight: -0.000032358246
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1953.1251, y: -0.019414948, z: 5468.75}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.000034297802
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6561, y: -0.02057868, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.000034025194
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6562, y: -0.020415116, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.000033753837
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6562, y: -0.020252302, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.000033483233
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6562, y: -0.02008994, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.000033212957
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6564, y: -0.019927774, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.000032942717
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6562, y: -0.01976563, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.0000326722
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6562, y: -0.01960332, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 24
+    terrainHeight: 67
+    originalHeight: 0
+    flattenedHeight: -0.00003240114
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1972.6562, y: -0.019440684, z: 5429.6875}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.00003435113
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1876, y: -0.020610679, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.00003407211
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1875, y: -0.020443266, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.000033796317
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1875, y: -0.02027779, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.000033522738
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1875, y: -0.020113643, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.000033250773
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1875, y: -0.019950464, z: 5332.0317}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.00003297981
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1875, y: -0.019787885, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.000032709388
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1875, y: -0.019625632, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 22
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.000032439195
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 1992.1875, y: -0.019463517, z: 5390.625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 23
+    terrainHeight: 68
+    originalHeight: 0
+    flattenedHeight: -0.0000175693
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.8251471
+    hitpos: {x: 1992.1875, y: -0.012775395, z: 5410.1562}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.00003443614
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7189, y: -0.020661684, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.000034141227
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.020484736, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.00003385429
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.020312574, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.000033572924
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.020143755, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.00003329544
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.019977264, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.000033020755
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.019812454, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.00003274801
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.019648805, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 20
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.000032476546
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.019485928, z: 5351.5625}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 21
+    terrainHeight: 69
+    originalHeight: 0
+    flattenedHeight: -0.000032205877
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2011.7188, y: -0.019323526, z: 5371.0938}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.00003427001
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.2501, y: -0.020562006, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.000033952154
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.25, y: -0.020371292, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.00003365052
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.25, y: -0.020190313, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.000033359243
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.25, y: -0.020015547, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.000033074917
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.25, y: -0.019844951, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.000032795433
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.25, y: -0.01967726, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 18
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.000032519318
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.25, y: -0.019511592, z: 5312.5}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 19
+    terrainHeight: 70
+    originalHeight: 0
+    flattenedHeight: -0.000032245633
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2031.25, y: -0.019347379, z: 5332.0312}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 10
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.000007769837
+    outerHeightDifference: 0
+    critical: 0
+    perc: 0.46524414
+    hitpos: {x: 2050.7812, y: -0.010020335, z: 5156.25}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.000034139142
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2050.7812, y: -0.020483484, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.000033805576
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2050.7812, y: -0.020283345, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.00003347493
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2050.7812, y: -0.020084959, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.000033163637
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2050.7812, y: -0.019898182, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.00003286656
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2050.7812, y: -0.019719936, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 16
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.000032578482
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2050.7812, y: -0.01954709, z: 5273.4375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 17
+    terrainHeight: 71
+    originalHeight: 0
+    flattenedHeight: -0.000032296433
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2050.7812, y: -0.01937786, z: 5292.9688}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 11
+    terrainHeight: 72
+    originalHeight: 0
+    flattenedHeight: -0.000033675096
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2070.3125, y: -0.020205058, z: 5175.7812}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 72
+    originalHeight: 0
+    flattenedHeight: -0.000033341526
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2070.3125, y: -0.020004917, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 72
+    originalHeight: 0
+    flattenedHeight: -0.00003300796
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2070.3125, y: -0.019804776, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 72
+    originalHeight: 0
+    flattenedHeight: -0.000032682277
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2070.3125, y: -0.019609366, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 15
+    terrainHeight: 72
+    originalHeight: 0
+    flattenedHeight: -0.000032376996
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2070.3125, y: -0.019426199, z: 5253.9062}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 12
+    terrainHeight: 73
+    originalHeight: 0
+    flattenedHeight: -0.000032877484
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2089.8438, y: -0.01972649, z: 5195.3125}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 13
+    terrainHeight: 73
+    originalHeight: 0
+    flattenedHeight: -0.000032543914
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2089.8438, y: -0.019526348, z: 5214.8438}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  - terrainWidth: 14
+    terrainHeight: 73
+    originalHeight: 0
+    flattenedHeight: -0.000032210388
+    outerHeightDifference: 0
+    critical: 1
+    perc: 1
+    hitpos: {x: 2089.8438, y: -0.019326232, z: 5234.375}
+    outerPos: {x: 0, y: 0, z: 0}
+    ignorePreserveHeights: 0
+  terrainChanges:
+  - index: 131876
+    value: 1
+  - index: 132389
+    value: 2
+  - index: 130851
+    value: 2
+  - index: 131364
+    value: 2
+  - index: 131877
+    value: 2
+  - index: 132390
+    value: 2
+  - index: 132903
+    value: 1
+  - index: 130852
+    value: 1
+  - index: 131365
+    value: 2
+  - index: 131878
+    value: 2
+  - index: 132391
+    value: 2
+  - index: 132904
+    value: 2
+  - index: 131366
+    value: 2
+  - index: 131879
+    value: 2
+  - index: 132392
+    value: 2
+  - index: 132905
+    value: 2
+  - index: 131367
+    value: 2
+  - index: 131880
+    value: 2
+  - index: 132393
+    value: 2
+  - index: 132906
+    value: 2
+  - index: 131368
+    value: 2
+  - index: 131881
+    value: 2
+  - index: 132394
+    value: 2
+  - index: 132907
+    value: 2
+  - index: 131369
+    value: 2
+  - index: 131882
+    value: 2
+  - index: 132395
+    value: 2
+  - index: 132908
+    value: 2
+  - index: 133421
+    value: 1
+  - index: 131370
+    value: 2
+  - index: 131883
+    value: 2
+  - index: 132396
+    value: 2
+  - index: 132909
+    value: 2
+  - index: 133422
+    value: 2
+  - index: 131884
+    value: 2
+  - index: 132397
+    value: 2
+  - index: 132910
+    value: 2
+  - index: 133423
+    value: 2
+  - index: 131885
+    value: 2
+  - index: 132398
+    value: 2
+  - index: 132911
+    value: 2
+  - index: 133424
+    value: 2
+  - index: 131886
+    value: 2
+  - index: 132399
+    value: 2
+  - index: 132912
+    value: 2
+  - index: 133425
+    value: 2
+  - index: 131887
+    value: 2
+  - index: 132400
+    value: 2
+  - index: 132913
+    value: 2
+  - index: 133426
+    value: 2
+  - index: 133939
+    value: 2
+  - index: 132401
+    value: 2
+  - index: 132914
+    value: 2
+  - index: 133427
+    value: 2
+  - index: 133940
+    value: 2
+  - index: 132402
+    value: 2
+  - index: 132915
+    value: 2
+  - index: 133428
+    value: 2
+  - index: 133941
+    value: 2
+  - index: 134454
+    value: 1
+  - index: 132403
+    value: 2
+  - index: 132916
+    value: 2
+  - index: 133429
+    value: 2
+  - index: 133942
+    value: 2
+  - index: 134455
+    value: 2
+  - index: 132917
+    value: 2
+  - index: 133430
+    value: 2
+  - index: 133943
+    value: 2
+  - index: 134456
+    value: 2
+  - index: 134969
+    value: 2
+  - index: 132918
+    value: 2
+  - index: 133431
+    value: 2
+  - index: 133944
+    value: 2
+  - index: 134457
+    value: 2
+  - index: 134970
+    value: 2
+  - index: 133432
+    value: 2
+  - index: 133945
+    value: 2
+  - index: 134458
+    value: 2
+  - index: 134971
+    value: 2
+  - index: 135484
+    value: 2
+  - index: 133946
+    value: 2
+  - index: 134459
+    value: 2
+  - index: 134972
+    value: 2
+  - index: 135485
+    value: 2
+  - index: 135998
+    value: 2
+  - index: 133947
+    value: 1
+  - index: 134460
+    value: 2
+  - index: 134973
+    value: 2
+  - index: 135486
+    value: 2
+  - index: 135999
+    value: 2
+  - index: 136512
+    value: 2
+  - index: 134461
+    value: 2
+  - index: 134974
+    value: 2
+  - index: 135487
+    value: 2
+  - index: 136000
+    value: 2
+  - index: 136513
+    value: 2
+  - index: 137026
+    value: 2
+  - index: 137539
+    value: 1
+  - index: 134975
+    value: 2
+  - index: 135488
+    value: 2
+  - index: 136001
+    value: 2
+  - index: 136514
+    value: 2
+  - index: 137027
+    value: 2
+  - index: 137540
+    value: 2
+  - index: 138053
+    value: 2
+  - index: 135489
+    value: 2
+  - index: 136002
+    value: 2
+  - index: 136515
+    value: 2
+  - index: 137028
+    value: 2
+  - index: 137541
+    value: 2
+  - index: 138054
+    value: 2
+  - index: 138567
+    value: 2
+  - index: 139080
+    value: 1
+  - index: 136003
+    value: 1
+  - index: 136516
+    value: 2
+  - index: 137029
+    value: 2
+  - index: 137542
+    value: 2
+  - index: 138055
+    value: 2
+  - index: 138568
+    value: 2
+  - index: 139081
+    value: 2
+  - index: 139594
+    value: 2
+  - index: 137030
+    value: 2
+  - index: 137543
+    value: 2
+  - index: 138056
+    value: 2
+  - index: 138569
+    value: 2
+  - index: 139082
+    value: 2
+  - index: 139595
+    value: 2
+  - index: 140108
+    value: 2
+  - index: 140621
+    value: 2
+  - index: 137544
+    value: 1
+  - index: 138057
+    value: 2
+  - index: 138570
+    value: 2
+  - index: 139083
+    value: 2
+  - index: 139596
+    value: 2
+  - index: 140109
+    value: 2
+  - index: 140622
+    value: 2
+  - index: 141135
+    value: 2
+  - index: 141648
+    value: 1
+  - index: 138571
+    value: 2
+  - index: 139084
+    value: 2
+  - index: 139597
+    value: 2
+  - index: 140110
+    value: 2
+  - index: 140623
+    value: 2
+  - index: 141136
+    value: 2
+  - index: 141649
+    value: 2
+  - index: 142162
+    value: 2
+  - index: 139598
+    value: 2
+  - index: 140111
+    value: 2
+  - index: 140624
+    value: 2
+  - index: 141137
+    value: 2
+  - index: 141650
+    value: 2
+  - index: 142163
+    value: 2
+  - index: 142676
+    value: 2
+  - index: 143189
+    value: 2
+  - index: 140112
+    value: 1
+  - index: 140625
+    value: 2
+  - index: 141138
+    value: 2
+  - index: 141651
+    value: 2
+  - index: 142164
+    value: 2
+  - index: 142677
+    value: 2
+  - index: 143190
+    value: 2
+  - index: 143703
+    value: 2
+  - index: 144216
+    value: 2
+  - index: 141139
+    value: 2
+  - index: 141652
+    value: 2
+  - index: 142165
+    value: 2
+  - index: 142678
+    value: 2
+  - index: 143191
+    value: 2
+  - index: 143704
+    value: 2
+  - index: 144217
+    value: 2
+  - index: 144730
+    value: 2
+  - index: 145243
+    value: 2
+  - index: 142166
+    value: 2
+  - index: 142679
+    value: 2
+  - index: 143192
+    value: 2
+  - index: 143705
+    value: 2
+  - index: 144218
+    value: 2
+  - index: 144731
+    value: 2
+  - index: 145244
+    value: 2
+  - index: 145757
+    value: 2
+  - index: 146270
+    value: 1
+  - index: 143193
+    value: 2
+  - index: 143706
+    value: 2
+  - index: 144219
+    value: 2
+  - index: 144732
+    value: 2
+  - index: 145245
+    value: 2
+  - index: 145758
+    value: 2
+  - index: 146271
+    value: 2
+  - index: 146784
+    value: 2
+  - index: 143707
+    value: 1
+  - index: 144220
+    value: 2
+  - index: 144733
+    value: 2
+  - index: 145246
+    value: 2
+  - index: 145759
+    value: 2
+  - index: 146272
+    value: 2
+  - index: 146785
+    value: 2
+  - index: 147298
+    value: 2
+  - index: 147811
+    value: 2
+  - index: 144734
+    value: 2
+  - index: 145247
+    value: 2
+  - index: 145760
+    value: 2
+  - index: 146273
+    value: 2
+  - index: 146786
+    value: 2
+  - index: 147299
+    value: 2
+  - index: 147812
+    value: 2
+  - index: 148325
+    value: 2
+  - index: 148838
+    value: 1
+  - index: 145761
+    value: 2
+  - index: 146274
+    value: 2
+  - index: 146787
+    value: 2
+  - index: 147300
+    value: 2
+  - index: 147813
+    value: 2
+  - index: 148326
+    value: 2
+  - index: 148839
+    value: 2
+  - index: 149352
+    value: 2
+  - index: 146788
+    value: 2
+  - index: 147301
+    value: 2
+  - index: 147814
+    value: 2
+  - index: 148327
+    value: 2
+  - index: 148840
+    value: 2
+  - index: 149353
+    value: 2
+  - index: 149866
+    value: 2
+  - index: 150379
+    value: 2
+  - index: 147302
+    value: 1
+  - index: 147815
+    value: 2
+  - index: 148328
+    value: 2
+  - index: 148841
+    value: 2
+  - index: 149354
+    value: 2
+  - index: 149867
+    value: 2
+  - index: 150380
+    value: 2
+  - index: 150893
+    value: 2
+  - index: 148329
+    value: 2
+  - index: 148842
+    value: 2
+  - index: 149355
+    value: 2
+  - index: 149868
+    value: 2
+  - index: 150381
+    value: 2
+  - index: 150894
+    value: 2
+  - index: 151407
+    value: 2
+  - index: 149356
+    value: 2
+  - index: 149869
+    value: 2
+  - index: 150382
+    value: 2
+  - index: 150895
+    value: 2
+  - index: 151408
+    value: 2
+  - index: 151921
+    value: 2
+  - index: 152434
+    value: 2
+  - index: 149870
+    value: 2
+  - index: 150383
+    value: 2
+  - index: 150896
+    value: 2
+  - index: 151409
+    value: 2
+  - index: 151922
+    value: 2
+  - index: 152435
+    value: 2
+  - index: 152948
+    value: 2
+  - index: 150384
+    value: 1
+  - index: 150897
+    value: 2
+  - index: 151410
+    value: 2
+  - index: 151923
+    value: 2
+  - index: 152436
+    value: 2
+  - index: 152949
+    value: 2
+  - index: 153462
+    value: 2
+  - index: 151411
+    value: 2
+  - index: 151924
+    value: 2
+  - index: 152437
+    value: 2
+  - index: 152950
+    value: 2
+  - index: 153463
+    value: 2
+  - index: 153976
+    value: 2
+  - index: 151925
+    value: 2
+  - index: 152438
+    value: 2
+  - index: 152951
+    value: 2
+  - index: 153464
+    value: 2
+  - index: 153977
+    value: 2
+  - index: 152439
+    value: 2
+  - index: 152952
+    value: 2
+  - index: 153465
+    value: 2
+  - index: 153978
+    value: 2
+  - index: 154491
+    value: 2
+  - index: 152953
+    value: 2
+  - index: 153466
+    value: 2
+  - index: 153979
+    value: 2
+  - index: 154492
+    value: 2
+  - index: 152954
+    value: 2
+  - index: 153467
+    value: 2
+  - index: 153980
+    value: 2
+  - index: 154493
+    value: 2
+  - index: 155006
+    value: 2
+  - index: 153468
+    value: 2
+  - index: 153981
+    value: 2
+  - index: 154494
+    value: 2
+  - index: 155007
+    value: 2
+  - index: 152956
+    value: 2
+  - index: 153469
+    value: 2
+  - index: 153982
+    value: 2
+  - index: 154495
+    value: 2
+  - index: 155008
+    value: 2
+  - index: 152957
+    value: 2
+  - index: 153470
+    value: 2
+  - index: 153983
+    value: 2
+  - index: 154496
+    value: 2
+  - index: 152445
+    value: 2
+  - index: 152958
+    value: 2
+  - index: 153471
+    value: 2
+  - index: 153984
+    value: 2
+  - index: 154497
+    value: 2
+  - index: 151933
+    value: 2
+  - index: 152446
+    value: 2
+  - index: 152959
+    value: 2
+  - index: 153472
+    value: 2
+  - index: 153985
+    value: 2
+  - index: 154498
+    value: 1
+  - index: 151421
+    value: 2
+  - index: 151934
+    value: 2
+  - index: 152447
+    value: 2
+  - index: 152960
+    value: 2
+  - index: 153473
+    value: 2
+  - index: 153986
+    value: 2
+  - index: 150909
+    value: 2
+  - index: 151422
+    value: 2
+  - index: 151935
+    value: 2
+  - index: 152448
+    value: 2
+  - index: 152961
+    value: 2
+  - index: 153474
+    value: 2
+  - index: 150397
+    value: 2
+  - index: 150910
+    value: 2
+  - index: 151423
+    value: 2
+  - index: 151936
+    value: 2
+  - index: 152449
+    value: 2
+  - index: 152962
+    value: 2
+  - index: 149372
+    value: 1
+  - index: 149885
+    value: 2
+  - index: 150398
+    value: 2
+  - index: 150911
+    value: 2
+  - index: 151424
+    value: 2
+  - index: 151937
+    value: 2
+  - index: 152450
+    value: 2
+  - index: 148860
+    value: 2
+  - index: 149373
+    value: 2
+  - index: 149886
+    value: 2
+  - index: 150399
+    value: 2
+  - index: 150912
+    value: 2
+  - index: 151425
+    value: 2
+  - index: 151938
+    value: 2
+  - index: 147835
+    value: 1
+  - index: 148348
+    value: 2
+  - index: 148861
+    value: 2
+  - index: 149374
+    value: 2
+  - index: 149887
+    value: 2
+  - index: 150400
+    value: 2
+  - index: 150913
+    value: 2
+  - index: 151426
+    value: 2
+  - index: 147323
+    value: 2
+  - index: 147836
+    value: 2
+  - index: 148349
+    value: 2
+  - index: 148862
+    value: 2
+  - index: 149375
+    value: 2
+  - index: 149888
+    value: 2
+  - index: 150401
+    value: 2
+  - index: 146298
+    value: 2
+  - index: 146811
+    value: 2
+  - index: 147324
+    value: 2
+  - index: 147837
+    value: 2
+  - index: 148350
+    value: 2
+  - index: 148863
+    value: 2
+  - index: 149376
+    value: 2
+  - index: 149889
+    value: 2
+  - index: 145273
+    value: 1
+  - index: 145786
+    value: 2
+  - index: 146299
+    value: 2
+  - index: 146812
+    value: 2
+  - index: 147325
+    value: 2
+  - index: 147838
+    value: 2
+  - index: 148351
+    value: 2
+  - index: 148864
+    value: 2
+  - index: 144761
+    value: 2
+  - index: 145274
+    value: 2
+  - index: 145787
+    value: 2
+  - index: 146300
+    value: 2
+  - index: 146813
+    value: 2
+  - index: 147326
+    value: 2
+  - index: 147839
+    value: 2
+  - index: 148352
+    value: 2
+  - index: 143736
+    value: 2
+  - index: 144249
+    value: 2
+  - index: 144762
+    value: 2
+  - index: 145275
+    value: 2
+  - index: 145788
+    value: 2
+  - index: 146301
+    value: 2
+  - index: 146814
+    value: 2
+  - index: 147327
+    value: 2
+  - index: 142711
+    value: 2
+  - index: 143224
+    value: 2
+  - index: 143737
+    value: 2
+  - index: 144250
+    value: 2
+  - index: 144763
+    value: 2
+  - index: 145276
+    value: 2
+  - index: 145789
+    value: 2
+  - index: 146302
+    value: 2
+  - index: 146815
+    value: 1
+  - index: 141686
+    value: 2
+  - index: 142199
+    value: 2
+  - index: 142712
+    value: 2
+  - index: 143225
+    value: 2
+  - index: 143738
+    value: 2
+  - index: 144251
+    value: 2
+  - index: 144764
+    value: 2
+  - index: 145277
+    value: 2
+  - index: 145790
+    value: 2
+  - index: 140661
+    value: 1
+  - index: 141174
+    value: 2
+  - index: 141687
+    value: 2
+  - index: 142200
+    value: 2
+  - index: 142713
+    value: 2
+  - index: 143226
+    value: 2
+  - index: 143739
+    value: 2
+  - index: 144252
+    value: 2
+  - index: 144765
+    value: 2
+  - index: 139636
+    value: 1
+  - index: 140149
+    value: 2
+  - index: 140662
+    value: 2
+  - index: 141175
+    value: 2
+  - index: 141688
+    value: 2
+  - index: 142201
+    value: 2
+  - index: 142714
+    value: 2
+  - index: 143227
+    value: 2
+  - index: 143740
+    value: 2
+  - index: 139124
+    value: 2
+  - index: 139637
+    value: 2
+  - index: 140150
+    value: 2
+  - index: 140663
+    value: 2
+  - index: 141176
+    value: 2
+  - index: 141689
+    value: 2
+  - index: 142202
+    value: 2
+  - index: 142715
+    value: 2
+  - index: 138099
+    value: 2
+  - index: 138612
+    value: 2
+  - index: 139125
+    value: 2
+  - index: 139638
+    value: 2
+  - index: 140151
+    value: 2
+  - index: 140664
+    value: 2
+  - index: 141177
+    value: 2
+  - index: 141690
+    value: 2
+  - index: 142203
+    value: 1
+  - index: 137074
+    value: 2
+  - index: 137587
+    value: 2
+  - index: 138100
+    value: 2
+  - index: 138613
+    value: 2
+  - index: 139126
+    value: 2
+  - index: 139639
+    value: 2
+  - index: 140152
+    value: 2
+  - index: 140665
+    value: 2
+  - index: 141178
+    value: 2
+  - index: 136562
+    value: 2
+  - index: 137075
+    value: 2
+  - index: 137588
+    value: 2
+  - index: 138101
+    value: 2
+  - index: 138614
+    value: 2
+  - index: 139127
+    value: 2
+  - index: 139640
+    value: 2
+  - index: 140153
+    value: 2
+  - index: 135537
+    value: 1
+  - index: 136050
+    value: 2
+  - index: 136563
+    value: 2
+  - index: 137076
+    value: 2
+  - index: 137589
+    value: 2
+  - index: 138102
+    value: 2
+  - index: 138615
+    value: 2
+  - index: 139128
+    value: 2
+  - index: 136051
+    value: 2
+  - index: 136564
+    value: 2
+  - index: 137077
+    value: 2
+  - index: 137590
+    value: 2
+  - index: 138103
+    value: 2
+  - index: 136565
+    value: 2
+  - index: 137078
+    value: 2
+  - index: 137591
+    value: 2
+  terrainTrees: []
+  detailInstances: []
+  detailInstanceStarts: 
+  surfaceObjects: []
+  terrainTestPoints: []
+  splatData: []
+  addedTrees: []
+  holes: []
+  terrainHeightsBackup: []
+  terrainTreesBackup: []
+  terrainDetailBackup: []
+  terrainSplatBackup: []
+  detailInstanceStartsBackUp: 
+  heightmapFlag: 1
+  splatmapFlag: 0
+  treeFlag: 1
+  detailFlag: 1
+  holesFlag: 1
+  terrainDone: 1
+  backupFlagNotification: 0
+  ignore: 0
+  backupObject: {fileID: 0}
+  terrain: {fileID: 0}
+--- !u!1001 &1100389151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 359485738817279527, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_Name
+      value: FA_N26_LE_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 359485738817279527, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 716.66394
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 60.93298
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5053.813
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.82659054
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06071689
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5499805
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.10287366
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 12.329
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 66.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132363881725136029, guid: a5bba4471f2b885428541314bad7877b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -6.069
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5bba4471f2b885428541314bad7877b, type: 3}
+--- !u!1001 &1184298197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3073974654154634581, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_Name
+      value: Glider
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 718.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5062.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.340576
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.556713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.817383
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8131035
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.03305396
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.57932544
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.046392396
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 70.939
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590191015340973907, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 6.531
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+        type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 446037634}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 75e04e7faad705a4f97c2078eba16fbe, type: 3}
+--- !u!1 &1370672027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1370672029}
+  - component: {fileID: 1370672028}
+  m_Layer: 0
+  m_Name: Terrain object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!154 &1370672028
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370672027}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
+--- !u!4 &1370672029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370672027}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 681.7103, y: 27.283478, z: 5036.894}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 449973903}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1825168249 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5588286365134245300, guid: 75e04e7faad705a4f97c2078eba16fbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184298197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2013410473
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013410475}
+  - component: {fileID: 2013410474}
+  m_Layer: 0
+  m_Name: StaticLightingSky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2013410474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013410473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Profile: {fileID: 11400000, guid: bd922665712d9624fabaf5027e55b98d, type: 2}
+  m_StaticLightingSkyUniqueID: 4
+  m_StaticLightingCloudsUniqueID: 0
+  m_StaticLightingVolumetricClouds: 0
+--- !u!4 &2013410475
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013410473}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 157207114}
+  - {fileID: 432432461}
+  - {fileID: 1370672029}
+  - {fileID: 2013410475}
+  - {fileID: 1100389151}
+  - {fileID: 1184298197}
